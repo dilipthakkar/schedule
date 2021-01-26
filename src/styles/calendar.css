@@ -1,0 +1,19 @@
+.app_loadingmsg {
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+.app_loader_container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    background: rgb(0, 0, 0, 0.4);
+}
